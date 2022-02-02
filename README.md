@@ -13,8 +13,12 @@
 
 
 ## Overview of Project:
+The main task corresponds to a multi-class text classification on Movie Reviews from the Rotten Tomatoes dataset. We will be using deep learning techniques for sentiment classification 
+We will be comparing the performace of following models
+* BiLSTM
 
-We are given a dataset which contains images of Dogs and Cats . Our aim is to develop an algorithm  which will take an input image and based on parameters the algorithm has learned , it will predict whether the given input test image is a cat or dog
+* BERT
+* RoBERTa
 
 ## Data Description:   
 For this project , I will be using the data from Kaggle <a href='https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews/data'>Sentiment Analysis on Movie Reviews</a>.<br>
@@ -26,12 +30,6 @@ The main task corresponds to a multi-class text classification on Movie Reviews 
 3 → Somewhat positive </br>
 4 → Positive </br>
 
-
-We will be comparing the performace of following models
-* BiLSTM
-
-* BERT
-* RoBERTa
 
 ## Libraries used:
 * Numpy
