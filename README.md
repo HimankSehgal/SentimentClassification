@@ -18,7 +18,7 @@ We will be comparing the performace of following models
 * BiLSTM
 
 * BERT
-* RoBERTa
+* RoBERTa (Robustly Optimized BERT Pre-training Approach)
 
 ## Data Description:   
 For this project , I will be using the data from Kaggle <a href='https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews/data'>Sentiment Analysis on Movie Reviews</a>.<br>
@@ -59,12 +59,10 @@ We find out the number of instances for every emotion , and also check the lengt
 
 * ### 5. Text processing with techniques like lemmatization , stop word removal , padding , tokenization
 
-
-
-
-* ### 6. Evaluating performance
+* ### 6. Building the model
+* ### 7. Evaluating the performance
 Plotted graphs to see the pattern of different parameters that were stored in a list during forward propagation
 
-## Conclusion
+## Analysis and Conclusion
 
-The training loss was 0.58 and test loss was 0.30 in the end
+Based on the training conducted above , we find out that LSTM has an accuracy of 0.67 , BERT has , RoBERT has . Comparing them XYZ has the best performance in our case
