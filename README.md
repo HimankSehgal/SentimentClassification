@@ -17,11 +17,7 @@
 We are given a dataset which contains images of Dogs and Cats . Our aim is to develop an algorithm  which will take an input image and based on parameters the algorithm has learned , it will predict whether the given input test image is a cat or dog
 
 ## Data Description:   
-
-
-
-In this project we'll be performing sentiment analysis on Rotten Tomatoes Dataset whose dataset has been attached in this repo
-
+For this project , I will be using the data from Kaggle <a href='https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews/data'>Sentiment Analysis on Movie Reviews</a>.<br>
 The main task corresponds to a multi-class text classification on Movie Reviews Competition and the dataset contains 156.060 instances for training, whereas the testing set contains 66.292 from which we have to classify among 5 classes. The sentiment labels are:
 
 0 → Negative      </br>
