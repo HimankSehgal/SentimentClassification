@@ -55,13 +55,24 @@ We find out the number of instances for every emotion , and also check the lengt
 
 
 * ### 4. Dividing dataset into train and validation split using <tt>**StratifiedSplit()**</tt> as we find that there is an imabalance in the instances for every class
-
+The instances of every class till this step comes out to be 
+2    79525
+3    32810
+1    27195
+4     9146
+0     7032
+Hence there is an imbalance. To deal with this we use the <tt>StratifiedSplit()</tt> method to ensure proportionate distribution in train and val set
 
 * ### 5. Text processing with techniques like lemmatization , stop word removal , padding , tokenization
+The text that we have cannot be directly input into the model , we need to perform pre processing. Lemmatization help to reduce words like going , go, gone to its lemma form of go. Stop words like I,the don't add much value hence they can be removed. Then we convert them to token numbers as we cannot directly input text into the model
 
 * ### 6. Building the model
+For BiLSTM , we take a stacked BiLSTM of 2 layers with 128 neurons which then followed by 2 linear layers with 50 and 5 units. 
+For BERT models,  we take the pretrained models with <tt>trainable = True </tt> and add a final layer with 5 neurons 
 * ### 7. Evaluating the performance
-Plotted graphs to see the pattern of different parameters that were stored in a list during forward propagation
+We display the confusion matrix and classification matrix for predictions on the validation set for each of the three models
+
+
 
 ## Analysis and Conclusion
 
